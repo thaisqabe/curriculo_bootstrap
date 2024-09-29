@@ -1,0 +1,89 @@
+body{
+    
+}
+
+nav{
+  background-color: #9051b394;
+}
+
+.nav-link{
+    color:black;
+}
+.nav-link:hover{
+    color: #7251B5;
+}
+
+main{
+    padding: 4%;
+}
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 10%;
+}
+
+.menor{
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.recepcao{
+    text-align: left;
+}
+
+.nome{
+    float: right ;
+}
+h1{
+    text-align: center;
+}
+
+h5{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.carletra{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/* .carousel-inner{
+    width: 80%;
+    
+    
+} */
+
+
+.card-text{
+    font-weight: normal;
+}
+
+.progress{
+    height: 0.6rem;
+    background-color: rgba(128, 128, 128, 0.219);
+    margin-bottom: 2%;
+}
+
+.roxocla{
+    background-color: #B185DB;
+}
+
+.roxoes{
+    background-color: #6247AA;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: #9051b394;
+}
