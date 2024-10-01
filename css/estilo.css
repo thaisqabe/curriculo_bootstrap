@@ -19,7 +19,14 @@ main{
 section{
     margin-left: 10%;
     margin-right: 10%;
-    margin: 10%;
+    margin-top: 12%;
+}
+
+.meio{
+    
+    margin-top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .menor{
@@ -27,23 +34,25 @@ section{
     margin-right: 18%;
 }
 
-.recepcao{
-    text-align: left;
-}
+
 
 .nome{
     float: right ;
 }
 h1{
     text-align: center;
+    margin-bottom: 3%;
 }
 
+h2{
+    margin-bottom: 2%;
+}
 h5{
     font-size: 2rem;
 }
 
 p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: justify;
 }
 
@@ -77,8 +86,27 @@ p{
     background-color: #6247AA;
 }
 
+.cor1{
+    background-color: #3D0E40;
+    color: rgba(255, 255, 255, 0.74);
+}
 
+.cor2{
+    background-color: #d2b7e5cc;
+}
 
+.texto{
+    color: rgba(255, 255, 255, 0.74);
+
+}
+
+.text-body-secondary .texto{
+    font-size: 0.9rem;
+}
+
+.list-group-item{
+    border-color: black;
+}
 
 
 
@@ -86,4 +114,5 @@ p{
 
 footer{
     background-color: #9051b394;
+    position: fixed;
 }
