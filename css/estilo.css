@@ -1,17 +1,19 @@
 body{
-    
+    font-family: 'Raleway', sans-serif;
 }
 
 nav{
   background-color: #9051b394;
+
 }
 
 .nav-link{
     color:black;
 }
-.nav-link:hover{
+.nav-link:hover, .btn:hover {
     color: #7251B5;
 }
+
 
 main{
     padding: 4%;
@@ -20,20 +22,33 @@ section{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 12%;
+    scroll-margin-top: 150px;
+}
+
+.home{
+    scroll-margin-top: 300px;
+
 }
 
 .meio{
-    
-    margin-top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: auto;
 }
+
+
+.cima{
+    margin-bottom: 10%;
+}
+
 
 .menor{
     margin-left: 18%;
     margin-right: 18%;
 }
 
+.menor2{
+    margin-left: 25%;
+    margin-right: 25%;
+}
 
 
 .nome{
@@ -51,6 +66,11 @@ h5{
     font-size: 2rem;
 }
 
+.sombra{
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+
+}
+
 p{
     font-size: 1.2rem;
     text-align: justify;
@@ -59,13 +79,8 @@ p{
 .carletra{
     text-align: center;
     font-size: 1.8rem;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
-
-/* .carousel-inner{
-    width: 80%;
-    
-    
-} */
 
 
 .card-text{
@@ -73,7 +88,7 @@ p{
 }
 
 .progress{
-    height: 0.6rem;
+    height: 1rem;
     background-color: rgba(128, 128, 128, 0.219);
     margin-bottom: 2%;
 }
@@ -86,6 +101,7 @@ p{
     background-color: #6247AA;
 }
 
+
 .cor1{
     background-color: #3D0E40;
     color: rgba(255, 255, 255, 0.74);
@@ -94,6 +110,7 @@ p{
 .cor2{
     background-color: #d2b7e5cc;
 }
+
 
 .texto{
     color: rgba(255, 255, 255, 0.74);
@@ -108,11 +125,74 @@ p{
     border-color: black;
 }
 
+.colalt{
+    margin: auto;
+    margin-top: 2%;
+}
+.card{
+    border-color: #D2B7E5;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 
+}
+.bcor{
+    background-color: #A06CD5;
+}
+  
+.card:hover {
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.7); 
+  }
 
+.table {
+    border: 0.5px solid rgba(0, 0, 0, 0.13); 
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
 
+td, th{
+    font-size: 2rem;
+}
 
+.imgtable{
+    width: 20%;
+    margin-right: 5%;
+}
+
+@media (max-width: 550px) {
+    th, td {
+        display: block; 
+        width: 100%; 
+        box-sizing: border-box;
+        font-size: 1rem;
+    }
+    tr {
+        display: block;
+        margin-bottom: 10px; 
+    }
+}
+
+@media (max-width: 390px) {
+    td, th{
+        font-size: 1rem;
+    }
+
+    }
+
+.rodape{
+    text-align: center;
+    margin: 1%;
+    color: black;
+}
+
+.imgrodape{
+    width: 2%;
+    margin-left: 0.5%;
+}
 footer{
-    background-color: #9051b394;
+    background-color: #9151b3f5;
     position: fixed;
+    padding: 1%;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
 }
